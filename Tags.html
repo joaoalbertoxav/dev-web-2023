@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+
+</head>
+<body>
+
+    <h3> <b> Formulário </b> </h3>
+    <fieldset>
+
+        <legend> <b>Dados Pessoais</b> </legend>
+<form>
+        <label for="Email"> Email:</label>
+        <input id="Email" type="text" placeholder="Digite Seu Email" ><br><br>
+
+        <label for="Endereço" > Endereço:</label>
+        <input id="Endereço" type="text" placeholder="Digite Seu Endereço"><br><br>
+
+        <label for="Cidade"> Cidade </label>
+        <input  id="Cidade" type="text" placeholder="Sua Cidade"><br><br>
+
+        <label for="Estado">Estado</label>
+        <select>
+            <option value="São Paulo">São Paulo</option>
+            <option value="Brasilia">Brasilia</option>
+            <option value="Macapá">Macapá</option>
+            <option value="BH">Belo Horizonte</option>
+        </select>
+    </fieldset><br>
+
+    <fieldset>
+        <legend><b>Dados Profissionais</b></legend>
+        <p><b> Natureza Do Cargo</b> </p>
+
+        <form>
+        <label for="Gerência">Gerência</label>
+        <input type="radio" name="um" value="Gerência">
+
+        <label for="Financeiro">Financeiro</label>
+        <input type="radio" name="um" value="Financeiro">
+
+        <label for="Recepção">Recepção</label>
+        <input type="radio" name="um" value="Recepção">
+
+        <label for="Administrativo">Administrativo</label>
+        <input type="radio" name="um" value="ADM">
+
+        <label for="Juridico">Jurídico</label>
+        <input type="radio" name="um" value="Juridico"><br>
+
+        <input type="submit" value="reset"><br><hr>
+        </form>
+
+        <p><b> Área De Interesse</b></p>
+
+        <form>
+        <label for="computação">Computação</label>
+        <input type="checkbox" name="um" value="Computação">
+
+        <label for="biologia">Biologia</label>
+        <input type="checkbox" name="um" value="Biologia">
+
+        <label for="meio ambiente">Meio Ambiente</label>
+        <input type="checkbox" name="um" value="Meio Ambiente">
+
+        <label for="engenharia">Engenharia</label>
+        <input type="checkbox" name="um" value="Engenharia">
+
+        <label for="historia"> Historia</label>
+        <input type="checkbox" name="um" value="Historia"><br>
+        <input type="submit" value="reset"><br><hr>
+        </form>
+
+        <label for="mini-curriculo">Mini-Curriculo</label>
+        <textarea rows="10" cols="50" placeholder="Digite Seu Texto"></textarea>
+
+    </fieldset><br>
+
+    <input type="submit" value="Enviar">
+    <input type="submit" value="Limpar">
+
+</body>
+</html>
